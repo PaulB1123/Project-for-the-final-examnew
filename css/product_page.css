@@ -1,0 +1,1168 @@
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../fonts/proxima_nova/Proxima\ Nova\ Font.otf");
+}
+
+@font-face {
+    font-family: "Bodoni MT";
+    src: url("../fonts/proxima_nova/BodoniModa-VariableFont_opsz\,wght.ttf");
+}
+
+
+@font-face {
+    font-family: "Freight_Big_Bold";
+    src: url("../fonts/proxima_nova/Freight\ Big\ Bold.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,500&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+
+/* LOGO TO CHANGE START*/
+
+/* #logo_to_use {
+    width: 30px;
+    height: 30px;
+
+}
+
+.logo {
+    background-image: url("/images_for_the_navigation_bar/small_logo.svg");
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 700px) {
+
+    .logo {
+        background-image: url("/images_for_product_page/big_logo.svg");
+        width: 50%;
+        height: 50%;
+    }
+
+} */
+
+.hidden {
+    display: none;
+}
+
+.unhidden {
+    display: inline;
+}
+
+.img_product_page {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* LOGO TO CHANGE ENDS*/
+
+/* HERO IMAGE FOR PRODUCT PAGE START*/
+
+
+.main_product_page_items {
+    position: relative;
+    margin-left: 2.5rem;
+
+}
+
+
+
+
+
+.img_product_page_sign_v1 {
+    position: inline-block;
+    top: 3%;
+    left: 76%;
+    width: 30px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+
+.img_product_page_sign_v2 {
+    position: inline-block;
+    left: 80%;
+    top: 15%;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+
+.product_page_arrows {
+    position: absolute;
+    top: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+
+/* HERO IMAGE FOR PRODUCT PAGE START*/
+
+/* CONTING START*/
+
+.conting {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}
+
+.numbers {
+    font-family: "Bodoni MT";
+    font-weight: 800;
+    font-size: 30px;
+    padding-top: 1rem;
+}
+
+.line {
+    font-size: 90px;
+    margin-top: 0rem;
+}
+
+#last_number {
+    padding-top: 2.5rem;
+}
+
+/* CONTING FINISH*/
+
+
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&family=Montserrat:wght@300;400&display=swap");
+
+@import url("https://use.typekit.net/qxm2zyz.css");
+
+* {
+    
+    box-sizing: border-box;
+}
+
+
+.productNameAndInfo {
+    margin-top: 3rem;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/*NAME AND PRICE*/
+.productNameAndPrice {
+    position: relative;
+    text-align: center;
+    padding-bottom: 3rem;
+    width: 100%;
+}
+
+.productNameAndPrice h1 {
+    font-family: "Freight_Big_Bold";
+    font-size: 30px;
+    line-height: 40px;
+    padding-top: 1rem;
+    border-bottom: 1px solid #afafaf;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    width: 50%;
+    font-weight: 300;
+}
+
+.productNameAndPrice h2 {
+    font-family: "Freight_Big_Bold";
+    font-size: 20px;
+    line-height: 20px;
+    padding-top: 0.5rem;
+    font-weight: 300;
+}
+
+.productNameAndPrice {
+    position: relative;
+    text-align: center;
+    padding-bottom: 3rem;
+    width: 100%;
+}
+
+/*SHOP BAG*/
+.addShopBag {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.addShopBag button {
+    text-align: center;
+    padding: 0.7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    border: none;
+}
+
+.availableText h3 {
+    font-family: "Bodoni Moda", serif;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 0.5rem;
+    /* padding-left: 25%; */
+    text-align: center;
+}
+
+.availableText p {
+    font-family: "proxima-nova", sans-serif;
+    font-size: 11px;
+    line-height: 20px;
+    padding-bottom: 0.5rem;
+    margin-left: 15%;
+    padding-right: 15%;
+    width: 85%;
+    text-align: center;
+}
+
+.availableText {
+    padding-bottom: 3rem;
+}
+
+.productInfoDrop {
+    font-family: freight-big-pro, serif;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 14%;
+    display: flex;
+    flex-direction: column;
+}
+
+.productDetails {
+    display: flex;
+    border-bottom: 1px solid #afafaf;
+    padding-bottom: 0.3rem;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 75%;
+    margin-bottom: 2.5rem;
+}
+
+.imgArrow {
+    align-items: flex-start;
+}
+
+
+.productDetails h3 {
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+/*
+/* Whole block*/
+.productNameAndInfo {
+    width: 100%;
+    height: 100vh;
+}
+
+.recently_viewed {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ---------------Media queries------------------ */
+
+@media (min-width: 500px) {
+    nav {
+        width: 90%;
+        margin-left: 1rem;
+    }
+
+    .navigation_icons {
+        display: flex;
+        justify-content: space-between;
+        margin: 1.5rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #BDBDBD;
+    }
+
+    .navigation_search ul li {
+        list-style: none;
+    }
+
+
+    .navigation_search ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 20px;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid #BDBDBD;
+    }
+
+
+}
+
+
+/* main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin: 0.4rem;
+    margin-top: 5rem;
+    justify-content: space-evenly;
+    border-bottom: 0.6px solid #BDBDBD
+} */
+
+.contains_type_list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discover ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    justify-content: space-evenly;
+    margin: 0rem;
+    padding: 0rem;
+    width: 100%;
+}
+
+
+.navigation_icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.shopping_bag {
+    margin-right: 1.5rem;
+}
+
+#burger_menu {
+    margin-left: 1.5rem;
+}
+
+.wrapping_naviagtion {
+    font-family: "Freight_Big_Bold";
+}
+
+.details {
+    /* margin-left:1rem ; */
+    font-size: 17px;
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Bodoni Moda', serif;
+    color: #BDBDBD;
+}
+
+h5 {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+h4 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+/* this is the footer  */
+FOOTER DESKTOP .footerBox {
+    height: 313px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+}
+
+.registrant {
+    margin-left: 3rem;
+    margin-top: 2.8rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    margin-bottom: 1.5rem;
+}
+
+.registerGroup {
+    display: flex;
+}
+
+.registerGroup1 {
+    display: flex;
+}
+
+.footerOne {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    width: 90%;
+}
+
+.lookUp {
+    padding-right: 7rem;
+    font-family: "Bodoni MT", serif;
+    font-size: 17px;
+    line-height: 20px;
+    padding-bottom: 0.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.registerGroup p {
+    padding-right: 7rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    padding-bottom: 0.5rem;
+    letter-spacing: 5%;
+}
+
+.registerGroup1 p {
+    padding-right: 9rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    padding-bottom: 0.5rem;
+    letter-spacing: 5%;
+}
+
+.footerTwo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerTwo h2 {
+    padding-left: 4rem;
+    font-family: "Bodoni MT", serif;
+    font-size: 25px;
+    line-height: 25px;
+    padding-bottom: 0.5rem;
+    letter-spacing: 0.3rem;
+    font-weight: lighter;
+}
+
+/* SoMe Footer*/
+
+.footerSoMe {
+    display: flex;
+    justify-content: center;
+}
+
+.footerSoMe img {
+    margin: 1.8rem;
+}
+
+.footerBox {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.recently_viewed h2 {
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Bodoni Moda', serif;
+    letter-spacing: 8px;
+    margin-bottom: 4rem;
+}
+
+.recently_viewed {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    padding-bottom: 4rem;
+    border-bottom: 0.6px solid #BDBDBD
+}
+
+
+.img_recently_viewed {
+    width: 100%;
+    height: 40vh;
+}
+
+main {
+    border-bottom: 0.6px solid #BDBDBD
+}
+
+
+@media (min-width: 700px) {
+
+    nav {
+        width: 90%;
+        margin-left: 1rem;
+    }
+
+    .navigation_icons {
+        display: flex;
+        justify-content: space-between;
+        margin: 1.5rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #BDBDBD;
+    }
+
+    #logo_to_use {
+        width: 122px;
+        height: 44px;
+
+    }
+
+    .big_logo {
+        background-image: url("images_for_product_page/big_logo.svg");
+        width: 50%;
+        height: 50%;
+    }
+
+    .navigation_search ul li {
+        list-style: none;
+    }
+
+
+
+    .navigation_search ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 20px;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid #BDBDBD;
+        width: 100%;
+    }
+
+    .the_entire_prodcut_page {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(32vw, 1fr));
+        grid-column: 1/-1;
+        margin: 6vw 0vw 25vw 3.1vw;
+        row-gap: 5em;
+        column-gap: 0em;
+
+    }
+
+    .recently_viewed {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .product_page_arrows {
+        position: absolute;
+        top: 30vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 1rem;
+        cursor: pointer;
+        transition: all 0.7s;
+    }
+
+    .img_product_page_sign_v1 {
+        position: inline-block;
+        /* top: 0%;
+        left: 79%; */
+        cursor: pointer;
+        transition: all 0.7s;
+    }
+
+    .img_product_page {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .img_product_page_sign_v2 {
+        position: inline-block;
+        /* left: 82.5%;
+        top: 6%; */
+        cursor: pointer;
+        transition: all 0.7s;
+    }
+
+    .wrapping_naviagtion ul {
+        margin-bottom: 1rem;
+    }
+
+    #hi_slide_main {
+        width: 100%;
+        height: 100%;
+    }
+
+    .hi-slide {
+        position: relative;
+        width: 300px;
+        height: 292px;
+        margin: 115px auto 0;
+        transform-style: preserve-3d;
+    }
+
+    .hi-slide {
+        margin: 5rem;
+    }
+
+    .third-slide {
+        background-image: url("/images_for_the_slide_bar/workshop_for_desktop.jpg");
+        z-index: 100;
+        width: 130%;
+    }
+
+
+
+    li img {
+        width: 100%;
+        height: 60%;
+        object-fit: cover;
+        position: absolute;
+        left: 0;
+        right: 0;
+        cursor: pointer;
+        transition: transform 0.4s ease-in-out;
+    }
+
+
+
+    .first_slide {
+        /* box-shadow: 0 1px 4px 0 rgba(0,0,0,.37); */
+        filter: drop-shadow(0px 4px 40px rgba(0, 0, 0, 0.6));
+        transform: translate3d(28%, 0, -200px);
+        margin-top: 10%;
+        width: 292.25px;
+        height: 553px;
+    }
+
+    .discover ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        justify-content: space-evenly;
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    .details {
+        /* margin-left:1rem ; */
+        font-size: 20px;
+        margin-left: 1rem;
+        padding: 0rem;
+        font-family: 'Bodoni Moda', serif;
+        color: #BDBDBD;
+    }
+
+    /* this is for the navigation bar, it is responsive */
+
+    .navigation_search ul {
+        width: 65%;
+        margin-top: 1px;
+        border-bottom: 0px solid #BDBDBD;
+    }
+
+    .wrapping_naviagtion {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #BDBDBD;
+        font-family: "Freight_Big_Bold";
+    }
+
+    #logo_to_use {
+        width: 122px;
+        height: 44px;
+
+    }
+
+    .navigation_search ul {
+        padding-bottom: 0rem;
+    }
+
+    .navigation_icons {
+        border-bottom: 0px solid #BDBDBD;
+    }
+
+    .wrapping_naviagtion ul {
+        padding: 0rem;
+        padding-top: 1rem;
+        border-top: 1px solid #BDBDBD;
+    }
+
+    .wrapping_naviagtion ul li {
+        padding-right: 1.5rem;
+        border-right: 1px solid #BDBDBD;
+    }
+
+
+    #li_v2 {
+        border-right: 0px solid #BDBDBD;
+    }
+
+    .navigation-manual {
+        display: none;
+    }
+
+
+
+    .img_container {
+        width: 90%;
+        height: 50%;
+        margin: 1rem;
+
+    }
+
+    .contains_type_list ul {
+        width: 60%;
+    }
+
+    .entire_ {
+        margin-left: 1rem;
+        width: 90%;
+    }
+
+
+    .details {
+        /* margin-left:1rem ; */
+        font-size: 15px;
+    }
+
+    video {
+        width: 70%;
+        height: 30%;
+        margin-bottom: 5rem;
+    }
+
+    .video_container h2 {
+        margin-top: 5rem;
+        margin-bottom: 4rem;
+    }
+
+
+    .logos_for_retailing {
+        width: 85%;
+    }
+
+    .productNameAndPrice {
+        position: relative;
+        text-align: center;
+        padding-bottom: 3rem;
+        width: 50%;
+    }
+
+    .productNameAndPrice h1 {
+        font-family: "Freight_Big_Bold";
+        font-size: 30px;
+        line-height: 40px;
+        padding-top: 1rem;
+        border-bottom: 1px solid #afafaf;
+        padding-bottom: 1.5rem;
+        margin: 0 auto;
+        width: 80%;
+        font-weight: lighter;
+    }
+
+    .productNameAndPrice h2 {
+        font-family: "Freight_Big_Bold";
+        font-size: 25px;
+        line-height: 10px;
+        padding-top: 0.3rem;
+        font-weight: lighter;
+    }
+
+    .productNameAndPrice {
+        position: relative;
+        text-align: center;
+        padding-bottom: 3rem;
+        width: 100%;
+    }
+
+    /*SHOP BAG*/
+    .addShopBag {
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+
+    .addShopBag button {
+        text-align: center;
+        padding: 0.7rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        background-color: black;
+        color: white;
+        border-radius: 0;
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        border: none;
+    }
+
+    .availableText h3 {
+        font-family: "Bodoni Moda", serif;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 0.5rem;
+        padding-left: 5%;
+    }
+
+    .availableText p {
+        font-family: "proxima-nova", sans-serif;
+        font-size: 13px;
+        line-height: 20px;
+        padding-bottom: 0.5rem;
+        padding-left: 5%;
+    }
+
+    .availableText {
+        padding-bottom: 3rem;
+    }
+
+    .productInfoDrop {
+        font-family: freight-big-pro, serif;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 14%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .productDetails {
+        display: flex;
+        border-bottom: 1px solid #afafaf;
+        padding-bottom: 0.3rem;
+        margin: 0 auto;
+        width: 100%;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 80%;
+        margin-bottom: 1.5rem;
+    }
+
+    .imgArrow {
+        align-items: flex-start;
+    }
+
+    /*
+      /* Whole block*/
+    .productNameAndInfo {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* DROP MENU*/
+    .card {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        background-color: #f2f5f7;
+        overflow: hidden;
+        transition: height 0.5s ease-in-out;
+    }
+
+    .card .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerBold {
+        margin: 3rem;
+    }
+
+    .toggle {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+        height: 40px;
+        width: 60px;
+        cursor: pointer;
+    }
+
+    .card .active {
+        height: 300px;
+    }
+
+    .toggle img {
+        transition: ease-in-out 0.5s;
+        height: 900px;
+    }
+
+    .card.active.toggle img {
+        transform: rotate(-180deg);
+    }
+
+    .navigation {
+        position: relative;
+        top: 25px;
+        border-top: 1px solid black;
+    }
+
+    FOOTER DESKTOP .footerBox {
+        height: 313px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        display: flex;
+    }
+
+    .registrant {
+        margin-left: 3rem;
+        margin-top: 2.8rem;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid black;
+        margin-bottom: 1.5rem;
+    }
+
+    .registerGroup {
+        display: flex;
+    }
+
+    .registerGroup1 {
+        display: flex;
+    }
+
+    .footerOne {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3rem;
+        width: 60%;
+    }
+
+    .lookUp {
+        padding-right: 7rem;
+        font-family: "Bodoni MT", serif;
+        font-size: 17px;
+        line-height: 20px;
+        padding-bottom: 0.5rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .registerGroup p {
+        padding-right: 7rem;
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        line-height: 20px;
+        padding-bottom: 0.5rem;
+        letter-spacing: 5%;
+    }
+
+    .registerGroup1 p {
+        padding-right: 9rem;
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        line-height: 20px;
+        padding-bottom: 0.5rem;
+        letter-spacing: 5%;
+    }
+
+    .footerTwo {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .footerTwo h2 {
+        padding-left: 4rem;
+        font-family: "Bodoni MT", serif;
+        font-size: 25px;
+        line-height: 25px;
+        padding-bottom: 0.5rem;
+        letter-spacing: 0.3rem;
+        font-weight: lighter;
+    }
+
+    /* SoMe Footer*/
+
+    .footerSoMe {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footerSoMe img {
+        margin: 1.8rem;
+    }
+
+    .footerBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid #BDBDBD;
+    }
+
+    /* main {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        margin: 0.4rem;
+        margin-top: 5rem;
+        justify-content: space-evenly;
+        border-bottom: 0.6px solid #BDBDBD
+    } */
+
+}
+
+@media (min-width: 1300px) {
+    .footerBox {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-bottom: 1px solid #BDBDBD;
+    }
+
+    .footerOne {
+        width: 30%;
+    }
+
+    .footerTwo {
+        margin-left: 15%;
+    }
+
+    .productNameAndPrice h1 {
+        font-family: "Freight_Big_Bold";
+        font-size: 40px;
+        line-height: 60px;
+        width: 60%;
+    }
+
+    .productNameAndPrice h2 {
+        font-family: "Freight_Big_Bold";
+        font-size: 30px;
+        line-height: 10px;
+        
+    }
+
+    .availableText h3{ font-size: 23px;}
+
+    .availableText p {
+        font-size: 14px;
+    }
+
+}
+
+@media (min-width: 1300px) {
+    .navigation_search ul {
+        width: 45%;
+        margin-top: 1px;
+        border-bottom: 0px solid #BDBDBD;
+    }
+
+    .img_container {
+        width: 90%;
+        height: 60%;
+        margin: 1rem;
+
+    }
+
+    .contains_type_list {
+        width: 100%;
+    }
+
+    .contains_type_list ul {
+        width: 50%;
+    }
+
+    .entire_ {
+        margin-left: 1rem;
+        width: 80%;
+    }
+
+    .discover h2 {
+        margin-bottom: 7rem;
+        margin-top: 10rem;
+    }
+
+
+    .details {
+        /* margin-left:1rem ; */
+        font-size: 21px;
+    }
+
+
+    .logos_for_retailing {
+        width: 75%;
+    }
+}
+
+@media (min-width: 1800px) {
+    .navigation_search ul {
+        width: 28%;
+        margin-top: 1px;
+        border-bottom: 0px solid #BDBDBD;
+    }
+
+    .details {
+        /* margin-left:1rem ; */
+        font-size: 23px;
+    }
+
+    .logos_for_retailing {
+        width: 50%;
+    }
+
+}
+
+@media (min-width: 700px) {
+    #burger_menu {
+        display: none;
+    }
+    #logo_to_use{
+        display: none; 
+    }
+
+    }
+ 
+@media (max-width: 700px) {
+    #li_v1 {
+        display: none;
+    }
+    #li_v2 {
+        display: none;
+    }
+
+    #logo_to_use_big {
+        display: none; 
+    }
+    }
